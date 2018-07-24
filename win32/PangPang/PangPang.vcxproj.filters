@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="glew">
+      <UniqueIdentifier>{5ca28058-f4fa-4b22-b758-b04276841d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{abf5e383-4992-4d49-9bad-41df2d51a8a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Foundation">
+      <UniqueIdentifier>{4004c356-9402-4daa-b0da-c0f39458dc45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Foundation\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Foundation\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{90e966a1-1a9c-404a-b844-01f28145f852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States">
+      <UniqueIdentifier>{f607c99c-4341-4db1-8b17-726506587fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\MainMenu">
+      <UniqueIdentifier>{edadc813-11d5-46e3-bcfc-a6bb87620384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\WaitingRoom">
+      <UniqueIdentifier>{e6810c9e-a360-4d11-b263-3f958e7ab233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zip">
+      <UniqueIdentifier>{09573138-83e6-45d2-91db-36683546aaf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Players">
+      <UniqueIdentifier>{4fe0f8a3-2c22-454a-9731-799003f5c5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Players\LocalPlayer">
+      <UniqueIdentifier>{f32ced46-48cb-4dd6-bf7a-166ecb4735ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Players\AIPlayer">
+      <UniqueIdentifier>{0564a216-db6b-4b26-88b9-503f285a619a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\States\InGameState">
+      <UniqueIdentifier>{68e70b42-22b0-493b-b87e-72790df013ad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glew\src\glew.c">
+      <Filter>glew</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zip\unzip.cpp">
+      <Filter>zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\zip\zip.cpp">
+      <Filter>zip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Event.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\GameApplication.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Renderer.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Sprite.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\State.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Texture.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Tank.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Weapon.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\WaitingRoom.cpp">
+      <Filter>Game\States\WaitingRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\MainMenu.cpp">
+      <Filter>Game\States\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\ResourceWin32.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\win32\WindowWin32.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Map.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Line.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Stage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Common.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Button.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UIElement.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Collidable.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Bar.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AngleView.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\UIManager.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\ImageView.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Label.cpp">
+      <Filter>Foundation\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\LocalPlayer.cpp">
+      <Filter>Game\Players\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\AIPlayer.cpp">
+      <Filter>Game\Players\AIPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\InGameState.cpp">
+      <Filter>Game\States\InGameState</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\glew\include\GL\glew.h">
+      <Filter>glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\glew\include\GL\wglew.h">
+      <Filter>glew</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zip\unzip.h">
+      <Filter>zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\zip\zip.h">
+      <Filter>zip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Drawable.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Event.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GameApplication.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\GameEngine.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Renderer.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Resource.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Sprite.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\State.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Texture.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Types.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Window.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Tank.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Weapon.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\WaitingRoom.h">
+      <Filter>Game\States\WaitingRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\MainMenu.h">
+      <Filter>Game\States\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\WindowWin32.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\ResourceWin32.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\win32\resource1.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Map.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Line.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Stage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Common.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utility.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Button.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UIElement.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Collidable.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Bar.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AngleView.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\UIManager.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\ImageView.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Label.h">
+      <Filter>Foundation\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\LocalPlayer.h">
+      <Filter>Game\Players\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\AIPlayer.h">
+      <Filter>Game\Players\AIPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\InGameState.h">
+      <Filter>Game\States\InGameState</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PangPang.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

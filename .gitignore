@@ -30,3 +30,21 @@
 *.exe
 *.out
 *.app
+
+# IDE user settings
+win32/PangPang.suo
+win32/PangPang.v11.suo
+win32/.vs
+
+# build directories
+win32/Debug
+win32/Release
+win32/Test
+win32/ipch
+win32/PangPang/Debug
+win32/PangPang/Release
+win32/PangPang/Test
+*.aps
+
+# exclude boost library (because of huge disk space...)
+win32/boost/
